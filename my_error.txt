@@ -1,0 +1,17 @@
+//mistype on host =
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhosts' ([Errno 8] nodename nor servname provided, or not known)")
+
+//mistype on user
+pymysql.err.OperationalError: (1045, "Access denied for user 'roota'@'localhost' (using password: YES)")
+
+//mistype on password
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+//mistype on db
+NameError: name 'db2' is not defined
+
+//mistype on charset
+AttributeError: 'NoneType' object has no attribute 'encoding
+
+//mistype on cursorclass
+NameError: name 'apymysql' is not defined
